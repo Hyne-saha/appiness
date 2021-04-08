@@ -172,7 +172,7 @@
 }
 
 .btn-blue{
-  background-image: linear-gradient(90deg, #2EC4B8 0%, #6078EA 40%, #6078EA 100%);
+  background-image: linear-gradient(90deg, #2EC4B8 15%, #6078EA 70%, #6078EA 100%);
   border-radius: 4px;
   width: 129px;
   height: 49px;
@@ -230,7 +230,7 @@
   background-color: #F9F9FF;
   border-radius: 4px;
   /*width: 539px;*/
-  height: 1064px;
+  /*height: 1064px;*/
   border: 0px;
   padding: 0px 100px;
 }
@@ -243,7 +243,7 @@
 
 .sec-3 .card-hr{
   border: 1px solid #ECECFF;
-  width: 415px;
+  width: 350px;
   /*height: 2px;*/
 }
 
@@ -529,42 +529,18 @@
 	  }
    }
 
-.multi-item-carousel{
-  .carousel-inner{
-    > .item{
-      transition: 500ms ease-in-out left;
-    }
-    .active{
-      &.left{
-        left:-33%;
-      }
-      &.right{
-        left:33%;
-      }
-    }
-    .next{
-      left: 33%;
-    }
-    .prev{
-      left: -33%;
-    }
-    @media all and (transform-3d), (-webkit-transform-3d) {
-      > .item{
-        // use your favourite prefixer here
-        transition: 500ms ease-in-out left;
-        transition: 500ms ease-in-out all;
-        backface-visibility: visible;
-        transform: none!important;
-      }
-    }
-  }
-  .carouse-control{
-    &.left, &.right{
-      background-image: none;
-    }
-  }
-}
+@media all and (width: 1024px) and (height: 768px) and (orientation:landscape){
+	  .bone_img,.bone-marrow-box, .bone-marrow-transpla, .sec-2 hr, .sec-3 .card-hr, .sec-3 .card-img-top{
+	  	width: 100%;
+	  } 
+	  .g-recaptcha {
+	    transform: scale(0.99);
+	  }
+	  .banner-bg{
+	  	background-size: auto;
+	  }
 
+}
 
 /*testimona*/
 
