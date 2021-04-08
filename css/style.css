@@ -222,7 +222,7 @@
   font-family: StagSans;
   font-size: 15px;
   line-height: 20px;
-  width: 423px;
+  width: 100%;
   text-align: center;
 }
 
@@ -248,7 +248,7 @@
 }
 
 .body-btm{
-  margin-bottom: -45px;
+  /*margin-bottom: -45px;*/
 }
 
 .sec4-heading h2{
